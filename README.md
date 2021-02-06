@@ -1,6 +1,6 @@
 # Flixster
-# Flix
-Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+
+Flixster is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 ## Flix Part 1
 
@@ -19,7 +19,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [x] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
 ### App Walkthough GIF
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://github.com/benjichiwaya/Flixster/blob/master/Flixster.gif" width=250><br>
 
 ### Notes
  The project was very straightforward and I really struggled to figure out a problem which I had caused when I mistyped somethimg.
