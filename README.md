@@ -2,29 +2,27 @@
 
 Flixster is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-## Flix Part 1
+## Flix Part 2
 
 ### User Stories
+- This part was a little less challenging than the previous. There was a need to pay attention to detail.
+- A total of about 4 hours was spent on implementing these parts of the app. 
 
 #### REQUIRED (10pts)
-- [X] (10pts) User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
+- [X] (8pts) User can click on each movie item to view the detials ( title, overview and video link)
+- [X] (2pts) App is currently consuming youtbe api which allows it to play trailers within the app.
 
 #### BONUS
-- [X] (2pts) Views should be responsive for both landscape/portrait mode.
-   - [X] (1pt) In portrait mode, the poster image, title, and movie overview is shown.
-   - [X] (1pt) In landscape mode, the rotated alternate layout should use the backdrop image instead and show the title and movie overview to the right of it.
-
-- [X] (2pts) Display a nice default [placeholder graphic](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
-- [x] (2pts) Improved the user interface by experimenting with styling and coloring.
-- [x] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
 ### App Walkthough GIF
-<img src="https://github.com/benjichiwaya/Flixster/blob/master/Flixster.gif" width=250><br>
+
+<img src="" width=250><br>
 
 ### Notes
- The project was very straightforward and I really struggled to figure out a problem which I had caused when I mistyped somethimg.
+
+- Since I was able to finish the project on time, I had the opportunity to play around with the source code to make more unique to my style of coding.
 
 ### Open-source libraries used
-
+- [Youtube API] ()- Youtube video playback
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Androids
